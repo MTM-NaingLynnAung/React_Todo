@@ -12,9 +12,32 @@
   height: 16px;
  }
 
- .text-size {
+.text-size {
   font-size: 20px;
+  text-align: left;
  }
+
+.size {
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+ }
+
+.complete {
+  text-decoration: line-through;
+}
+
+.remove-decoration {
+  border: none;
+}
+.edit-form {
+  left: 51px;
+  position: absolute;
+  padding-left: 12px;
+}
+.li-width {
+  height: 30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
