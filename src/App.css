@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+ul {
+  list-style-type: none ;
+}
+a {
+  text-decoration: none!important;
+  color: #000!important;
+}
+
 .larger {
   width: 20px;
   height: 16px;
@@ -37,6 +45,12 @@
 }
 .li-width {
   height: 30px;
+}
+.link a{
+  padding: 5px 10px;
+ }
+.link a:hover, .router-link-active {
+  border-bottom: 2px solid #1ad59d;
 }
 
 @media (prefers-reduced-motion: no-preference) {
